@@ -29,9 +29,11 @@ It provides a menu-driven interface to create and modify plasmids as doubly link
 5. Save the plasmid to a `.txt` file or load from a `.csv` file
 
 ## Example CSV format
+```bash
 lacZ,ATGACCATGATTACGCCA,Therapeutic marker
 KanR,ATGGATCCTCTAGAGGAT,Antibiotic resistance
 ori,GGGCGCCCTTTCGTCTTCA,Replication origin
+```
 
 ## Compilation
 Use `gcc` (or any C compiler) with support for the C99 standard or newer:
@@ -40,9 +42,12 @@ gcc plasmid_designer.c -o plasmid_designer
 ```
 
 ## Running
+```bash
 ./plasmid_designer
+```
 
 ## Example menu
+```bash
 --- Plasmid Manager Menu ---
 1) Add gene at position
 2) Delete gene at position
@@ -53,6 +58,7 @@ gcc plasmid_designer.c -o plasmid_designer
 7) Load plasmid from CSV file
 8) Edit gene data
 0) Exit
+```
 
 ## Tested on
 	•	Linux Ubuntu 
