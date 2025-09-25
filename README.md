@@ -37,6 +37,7 @@ ori,GGGCGCCCTTTCGTCTTCA,Replication origin
 Use `gcc` (or any C compiler) with support for the C99 standard or newer:
 ```bash
 gcc plasmid_designer.c -o plasmid_designer
+```
 
 ## Running
 ./plasmid_designer
